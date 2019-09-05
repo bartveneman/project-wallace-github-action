@@ -1,5 +1,5 @@
 function run() {
-  const pwToken = process.env.INPUT_PROJECT_WALLACE_WEBHOOK_TOKEN;
+  const pwToken = process.env.INPUT_PROJECT_WALLACE_TOKEN;
   console.log("pwToken", pwToken);
   process.stdout.write(
     `##[set-output name=css_analytics_diff;]${JSON.stringify({
