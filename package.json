@@ -17,7 +17,5 @@
     "url": "https://github.com/bartveneman/project-wallace-github-action/issues"
   },
   "homepage": "https://github.com/bartveneman/project-wallace-github-action#readme",
-  "dependencies": {
-    "@actions/core": "^1.1.0"
-  }
+  "dependencies": {}
 }
