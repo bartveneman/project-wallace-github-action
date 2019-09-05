@@ -6,9 +6,13 @@ function run() {
   console.log("pwToken", pwToken);
   core.debug(`pwToken: ${pwToken}`);
   core.setOutput(
-    "stats",
+    "css_analytics_diff",
     JSON.stringify({
-      "stylesheets.size": 1
+      "stylesheets.size": {
+        oldValue: 1,
+        newValue: 2,
+        diff: 2
+      }
     })
   );
   console.log("ended `run()`");
