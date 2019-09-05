@@ -1,0 +1,20 @@
+{
+  "name": "project-wallace-github-action",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A GitHub Action to push CSS to projectwallace.com",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartveneman/project-wallace-github-action.git"
+  },
+  "keywords": [],
+  "author": "Bart Veneman",
+  "bugs": {
+    "url": "https://github.com/bartveneman/project-wallace-github-action/issues"
+  },
+  "homepage": "https://github.com/bartveneman/project-wallace-github-action#readme"
+}

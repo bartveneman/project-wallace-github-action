@@ -1,0 +1,17 @@
+name: "PR Diff"
+on: [pull_request]
+
+jobs:
+  pr_diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: "npm ci"
+        run: npm ci
+
+      - name: "npm run build:pw"
+        run: "npm run build:pw"
+
+      - name: "pretend to get diff from projectwallace.com"
+        run: "echo '{stylesheets.size:0}'" && exit 0

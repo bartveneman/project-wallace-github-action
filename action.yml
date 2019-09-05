@@ -1,0 +1,21 @@
+name: Publish to Project Wallace
+author: Bart Veneman
+description: Push your CSS to Project Wallace for analysis
+
+inputs:
+  project_wallace_token:
+    description: The Webhook Token from your Project Wallace project
+    required: false
+    default: ""
+
+outputs:
+  css_analytics_diff:
+    description: The CSS Analytics Diff of the PR compared to the base branch
+
+branding:
+  color: green
+  icon: trending-up
+
+runs:
+  using: node12
+  main: "src/index.js"
